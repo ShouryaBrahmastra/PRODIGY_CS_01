@@ -22,5 +22,6 @@
 ```
 pip install string colorama
 ```
+---
 ## Output Snapshot
-<img align="center" alt="jpg" src="./task1.png" width="200" border-radius="5px" />
+<p align="center"><img align="center" alt="jpg" src="./task1.png" /></p>
