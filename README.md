@@ -20,5 +20,5 @@
 ## Dependencies
 
 ```
-pip install string
+pip install string colorama
 ```

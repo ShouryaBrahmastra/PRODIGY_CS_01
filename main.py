@@ -1,4 +1,5 @@
 import string
+from colorama import Fore, Style
 
 alphabets = string.ascii_lowercase * 2
 encode_inputs = ["e", "encrypt"]
@@ -29,7 +30,10 @@ def caesar(cipher_direction, start_text, shift_amount):
 
 should_continue = True
 while should_continue:
-    direction = input("Enter {0} in order to encrypt \n                  or \n      {1} in order to decrypt: \n"
+    print(Fore.LIGHTYELLOW_EX + "\n.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.")
+    print(Fore.GREEN + "\n           Welcome to Caesar Cipher Algorithm! @ShouryaGupta" + Style.RESET_ALL)
+    print(Fore.LIGHTYELLOW_EX + "\n.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-." + Style.RESET_ALL)
+    direction = input("\nEnter {0} in order to encrypt \n                  or \n      {1} in order to decrypt: \n"
                       .format(" or ".join(encode_inputs).casefold(), 
                               " or ".join(decode_inputs))).casefold()
     if direction not in valid_inputs:
