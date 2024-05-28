@@ -8,7 +8,7 @@
   "Author": "Shourya Gupta",
   "Language": "Python",
 
-```
+``` 
 ***
 ## Task list
 - [x] Ask user to enter the choice to encrypt or decrypt the string.
